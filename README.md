@@ -72,7 +72,6 @@ npm test
 src/
 │
 ├── controllers/       # Route controllers (Controllers layer)
-├── middlewares/       # Express middlewares
 ├── models/            # Data models (e.g., Mongoose schemas)
 ├── routes/            # Express routes
 ├── services/          # Business logic (Service layer)
@@ -87,8 +86,7 @@ Environment variables are managed using a `.env` file. Here's an example:
 
 ```
 PORT=3000
-DATABASE_URL=mongodb://localhost:27017/mydatabase
-JWT_SECRET=your_jwt_secret
+NODE_ENV=development
 ```
 
 ## API Documentation
