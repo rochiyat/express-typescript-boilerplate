@@ -13,7 +13,6 @@ This boilerplate provides a solid foundation to start developing robust RESTful 
 - **Jest**: Ready-to-go setup for unit and integration testing.
 - **Swagger UI**: Auto-generated API documentation using [Swagger](https://swagger.io/).
 - **Error Handling**: Centralized error handling middleware.
-- **Logging**: Integrated logging with [Winston](https://github.com/winstonjs/winston) for better monitoring.
 
 ## Getting Started
 
